@@ -1,0 +1,19 @@
+{
+    "name": "lubed/caches",
+    "type": "component",
+    "description": "lubed cache",
+    "keywords": [
+        "cache"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lubed\\Caches\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "lubed/supports": "dev-main",
+        "lubed/exceptions": "dev-main"
+    }
+}
